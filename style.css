@@ -92,6 +92,16 @@ section{
     right: 20px;
 }
 
+
+
+/* footer */
+footer{
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
 }
 
 
