@@ -13,15 +13,15 @@
             <img src="img/logo.png" alt="" draggable="false"> <!-- ejemplo de atributos -->
             <h1>TIENDA DE APPS</h1> <!-- Titulos -->
         </div>
-        <div class="cajitanav">
-            <h3>Aplicaciones</h3>
-            <h3>Encuentranos</h3>
-            <h3>Contacto</h3>
-        </div>
+        <ul class="cajitanav" type="none"> <!-- Listas -->
+            <li><a href="#cartas">Aplicaciones</a></li>
+            <li><a href="#mapa">Encuentranos</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+        </ul>
     </nav>
     <section id="video">
-        <video src="videos/SimCity BuildIt_ Tráiler oficial de Google Play.mp4"  autoplay muted width="80%" height="80%"></video>
-        <div>
+        <video src="videos/SimCity BuildIt_ Tráiler oficial de Google Play.mp4"  autoplay muted width="80%" height="80%"></video> <!-- Video --> 
+        <div class="cartas">
             <img src="img/sim.webp" alt="">
             <h3>SimCity BuildIt</h3>
             <p>ELECTRONIC ARTS</p>
@@ -30,7 +30,7 @@
 
         </div>
     </section>
-    <section>
+    <section id="cartas">
         <article class="cartas">
             <img src="img/82b21fe6d9166c673eed585a5fc38ef5.jpg" alt="">
             <div class="infoCarta">
@@ -107,6 +107,27 @@
     <section id="mapa">
         <h1>Encuentranos</h1>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d941.2375670493204!2d-99.1821994!3d19.3279642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01001f7fcca9%3A0xe52d0f424d7acf9!2sLaboratorio%20de%20Multimedia%20e%20Internet!5e0!3m2!1ses!2smx!4v1733853034445!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section id="Contacto">
+        <h1>Contacto</h1>
+        <form action="#" method="post"> <!-- Formularios -->
+            <ul>
+              <li>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">Correo electrónico:</label>
+                <input type="email" id="mail" name="user_mail" />
+              </li>
+              <li>
+                <label for="msg">Mensaje:</label>
+                <textarea id="msg" name="user_message" rows="8"></textarea>
+              </li>
+              <button class="boton">ENVIAR</button>
+            </ul>
+          </form>
+          
     </section>
     <footer>
         <p>&copy; 2024 Tienda de Apps.</p>
