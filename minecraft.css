@@ -26,16 +26,14 @@ tr:hover {
 }
 
 .btnMinecraft{
-    border: none !important;
-    right: 50% !important;
-    bottom: 10%;
     width: 500px;
     height: 100px;
-
     border-radius: 30px;
-    color: black;
+    color: rgb(255, 255, 255);
     background-color: #6FB238;
     align-self: center;
     font-size: 2em;
-
+    display: flex;
+    justify-content: center;
+    align-items:  center;
 }
